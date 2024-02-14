@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+.blok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div .big {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    font-family: "Lora";
+}
+
+.blok div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.blok div a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Oxygen";
+}
+
+.blok2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    font-family: "Lora";
+    margin: 150px 15px 3px 15px;
+}
+
+.blok2 span {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: "Lora";
+    text-align: center;
+    color: #2E2E2E;
+    opacity: 0.63; 
+    margin: 3px 15px 110px 15px;
+}
+
+.P1 {
+    margin: 0px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: "Oxygen";
+    text-align: left;
+    padding-left: 240px;
+    padding-right: 240px;   
+}
+
+.footer {
+    background-image: url("BackR.png");
+  }
+  
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.big2 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    font-family: "Lora";
+    color:#FFFF; 
+}
+
+.footer div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.footer div a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Oxygen";
+    color: #FFFF;
+    opacity: 0.60;
+}
