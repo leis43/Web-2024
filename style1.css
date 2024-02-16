@@ -3,9 +3,11 @@ body {
 }
 
 .blok {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 17px 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 940px;
 }
 
 div .big {
@@ -13,22 +15,41 @@ div .big {
     font-size: 26px;
     line-height: 26px;
     font-family: "Lora";
+    margin-right: 570px;
 }
 
-.blok div a {
+.blok div{
+    display: inline-block;
+}
+
+.blok div .Home{
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     font-family: "Oxygen";
-    margin-right: 30px;
+    margin: 10px 21px 10px 19.6px;
 }
 
+.blok div div a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Oxygen";
+    margin-right: 0px 0px 0px 0px;
+    padding: 10px 10px;
+}
+
+.blok2{
+    margin: 89px 250px 38px 250px;
+    height: 59px;
+    width: 940px;
+}
 h1 {
     font-weight: 400;
     font-size: 50px;
     line-height: 51px;
     font-family: "Lora";
-    margin: 150px 15px 3px 540px;
+    margin: 7px 221px 20px 221px;
 }
 
 .blok2 span {
@@ -39,11 +60,11 @@ h1 {
     text-align: center;
     color: #2E2E2E;
     opacity: 0.63; 
-    margin: 3px 15px 110px 540px;
+    margin: 0px 217px 75px 217px;
 }
 
 .P1 {
-    margin: 0px;
+    margin: 38px 0px 140px 0px;
 }
 
 .text {
@@ -52,8 +73,9 @@ h1 {
     line-height: 35px;
     font-family: "Oxygen";
     text-align: left;
-    padding-left: 240px;
-    padding-right: 240px;   
+    width: 960px;
+    height: 1431;
+    margin: 0px 240px 135px 240px; 
 }
 
 .footer {
@@ -61,9 +83,19 @@ h1 {
   }
   
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 89px;
+    width: 1440px;
+}
+    
+.footer div {
+    margin: 28px 240px 27px 240px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 34px;
+    width: 960px;
 }
 
 .big2 {
@@ -71,10 +103,20 @@ h1 {
     font-size: 26px;
     line-height: 26px;
     font-family: "Lora";
-    color:#FFFF; 
+    margin-right: 3px 0px 3px 10px;
+    width: 92px;
+    height: 26px;
+    color: #FFFF;
 }
 
-.footer div a {
+.footer div div{
+    width: 639.98px;
+    height: 32px;
+    margin: 28px 240px 29px ;
+    border: 1px #FFFF;
+}
+
+.footer div div .Home2{
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -82,4 +124,15 @@ h1 {
     color: #FFFF;
     opacity: 0.60;
     margin-right: 30px;
+    margin: 3px 10px 3px 358.02px ;
+}
+
+.footer div div div a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Oxygen";
+    color: #FFFF;
+    opacity: 0.60;
+    margin-right: 3px 10px;
 }
