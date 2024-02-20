@@ -1,70 +1,74 @@
 body {
-    margin: 0;
+    margin: 0px;
+    width: 100%;
 }
 
-.blok {
-    margin: 17px 250px;
+.top-block {
+    height: 40px;
     display: inline-block;
     box-sizing: border-box;
-    height: 40px;
-    width: 940px;
+    margin: 17px 17% 106px 17%;
 }
 
-div .big {
+.logo {
     font-weight: 400;
     font-size: 26px;
     line-height: 26px;
     font-family: "Lora";
-    margin-right: 570px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
-.blok div{
+.links {
+    height: 40px;
+    margin-left: 485px;
     display: inline-block;
 }
 
-.blok div .Home{
+.links-item {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     font-family: "Oxygen";
-    margin: 10px 21px 10px 19.6px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
-.blok div div a {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-    font-family: "Oxygen";
-    margin-right: 0px 0px 0px 0px;
-    padding: 10px 10px;
+.title {
+    margin: 0 18% 38px 18%;
+    height: 159px;
+    text-align: center;
 }
 
-.blok2{
-    margin: 89px 250px 38px 250px;
-    height: 59px;
-    width: 940px;
-}
 h1 {
     font-weight: 400;
     font-size: 50px;
     line-height: 51px;
     font-family: "Lora";
-    margin: 7px 221px 20px 221px;
+    margin: 7px 25% 20px 25%;
+    height: 51px;
 }
 
-.blok2 span {
+.title span {
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    font-family: "Lora";
+    font-family: "Oxygen";
     text-align: center;
     color: #2E2E2E;
-    opacity: 0.63; 
-    margin: 0px 217px 75px 217px;
+    opacity: 0.63;
+    margin-bottom: 75px;
 }
 
 .P1 {
-    margin: 38px 0px 140px 0px;
+    height: 541px;
+    margin-bottom: 140px;
+    width: 100%;
 }
 
 .text {
@@ -73,50 +77,40 @@ h1 {
     line-height: 35px;
     font-family: "Oxygen";
     text-align: left;
-    width: 960px;
     height: 1431;
-    margin: 0px 240px 135px 240px; 
+    margin: 0 20% 135px 20%;
 }
 
-.footer {
-    background-image: url("./images/BackR.png");
-  }
-  
-.footer {
-    margin: 0px;
+.footer-menu {
     display: inline-block;
+    margin-left: 600px;
+}
+
+.basement-foot {
     box-sizing: border-box;
     height: 89px;
-    width: 1440px;
-}
-    
-.footer div {
-    margin: 28px 240px 27px 240px;
-    display: inline-block;
-    box-sizing: border-box;
-    height: 34px;
-    width: 960px;
+    background-image: url("./images/BackR.png");
+    background-position: center;
+    background-size: 100%;
 }
 
-.big2 {
+.basement-foot-elements{
+    padding: 31px 17% 0 17%;
+}
+
+.footer-menu-logo {
     font-weight: 400;
     font-size: 26px;
     line-height: 26px;
     font-family: "Lora";
     margin-right: 3px 0px 3px 10px;
-    width: 92px;
     height: 26px;
     color: #FFFF;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.footer div div{
-    width: 639.98px;
-    height: 32px;
-    margin: 28px 240px 29px ;
-    border: 1px #FFFF;
-}
-
-.footer div div .Home2{
+.footer-menu-link {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -124,15 +118,7 @@ h1 {
     color: #FFFF;
     opacity: 0.60;
     margin-right: 30px;
-    margin: 3px 10px 3px 358.02px ;
-}
-
-.footer div div div a {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-    font-family: "Oxygen";
-    color: #FFFF;
-    opacity: 0.60;
-    margin-right: 3px 10px;
+    margin: 3px 10px 3px 0;
+    cursor: pointer;
+    text-decoration: none;
 }
