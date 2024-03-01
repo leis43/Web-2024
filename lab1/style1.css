@@ -6,7 +6,6 @@ body {
 .top-block {
     height: 40px;
     display: inline-block;
-    box-sizing: border-box;
     margin: 17px 17% 106px 17%;
 }
 
