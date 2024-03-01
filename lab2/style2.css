@@ -97,17 +97,13 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: px;
     background-color: #FFFFFF;
     padding-top: 9px;
     padding-bottom: 10px;
 }
 
 .menu__link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    font-family: "Lora";
+    font: 400 14px/20px "Lora";
     color: #768088;
     text-decoration: none;
     padding: 13px 41px;
