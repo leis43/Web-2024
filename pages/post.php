@@ -4,14 +4,15 @@
 <head>
 	<title>The Road Ahead</title>
 	<link href="style1.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 </head>
 
 <body>
 	<header class="top-block">
-		<a class="logo" href="">Escape.</a>
+		<a> 
+		  <img src="./images/images__post/images__post/images__post/images__post/Escape..svg" alt="triangle with all three sides equal" class="logo" />
+		</a>
 		<nav class="links">
 			<a class="links-item" href="">HOME</a>
 			<a class="links-item" href="">CATEGORIES</a>
@@ -23,7 +24,7 @@
 		<h1>The Road Ahead</h1>
 		<span>The road ahead might be paved - it might not be.</span>
 	</div>
-	<img src="./images/the-road-ahead.png" alt="img" class="P1" />
+	<img src="./images/images__post/images__post/images__post/images__post/the-road-ahead.png" alt="img" class="P1" />
 	<div class="text">
 		<p>Dark spruce forest frowned on either side the frozen waterway. The trees had been stripped by a recent wind
 			of their white covering of frost, and they seemed to lean towards each other, black and ominous, in the

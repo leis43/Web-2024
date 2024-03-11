@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Let's do it together.</title>
-    <link href="style2.css" rel="stylesheet">
+    <title>Let\'s do it together.</title>
+    <link type = "text/css" rel = "stylesheet" href = "./appearance/style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap"
@@ -31,7 +31,7 @@
             </ul>
         </div>
         <div class="header__baner">
-            <h1 class="header__title">Let's do it together.</h1>
+            <h1 class="header__title">Let\'s do it together.</h1>
             <span class="header__subtitle">We travel the world in search of stories. Come along for the ride.</span>
             <a href="#" class="header__button">View Latest Posts </a>
         </div>
@@ -50,13 +50,13 @@
         </div>
         <div class="news">
             <div class="news__post">
-                <img class="news-post__background" src="./images__blog/TRA.png" alt="img">
+                <img class="news-post__background" src="./images/images__home/TRA.png" alt="img">
                 <div class="news-post__description">
                     <a href="#" class="news-post__title">The Road Ahead</a>
                     <span class="news-post__subtitle">The road ahead might be paved - it might not be.</span>
                     <div class="news-post__info">
                         <div class="news-post-info__autor">
-                            <img class="news-post-info-autor__avatar" src="./images__blog/ManMV.png" alt="img">
+                            <img class="news-post-info-autor__avatar" src="./images/images__home/ManMV.png" alt="img">
                             <span class="news-post-info-autor__name">Mat Vogels</span>
                         </div>
                         <span class="news-post-info__release-date">September 25, 2015</span>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="news__post-with-categories">
-                <img class="news-post-with-categories__background" src="./images__blog/FTD.png" alt="img">
+                <img class="news-post-with-categories__background" src="./images/images__home/FTD.png" alt="img">
                 <div class="button">
                     <a href="#" class="button__categories-of-post">ADVENTURE</a>
                 </div>
@@ -73,7 +73,7 @@
                     <span class="news-post__subtitle">Once a year, go someplace you’ve never been before.</span>
                     <div class="news-post__info">
                         <div class="news-post-info__autor">
-                            <img class="news-post-info-autor__avatar" src="./images__blog/ManWW.png" alt="img">
+                            <img class="news-post-info-autor__avatar" src="./images/images__home/ManWW.png" alt="img">
                             <span class="news-post-info-autor__name">William Wong</span>
                         </div>
                         <span class="news-post-info__release-date">September 25, 2015</span>
@@ -87,21 +87,21 @@
         <div class="user-actions">
             <div class="user-action-posts">
                 <div class="user-actions__post">
-                    <img class="user-actions-post__background" src="./images__blog/SST.jpg" alt="img">
+                    <img class="user-actions-post__background" src="./images/images__home/SST.jpg" alt="img">
                     <div class="user-actions-post__description">
                         <a href="#" class="user-actions-post__title">Still Standing Tall</a>
                         <span class="user-actions-post__subtitle">Life begins at the end of your comfort zone.</span>
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./images__blog/ManWW.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./images/images__home/ManWW.png" alt="img">
                             <span class="user-actions-post-autor__name">William Wong</span>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
                     </div>
                 </div>
                 <div class="user-actions__post">
-                    <img class="user-actions-post__background" src="./images__blog/SSU.png" alt="img">
+                    <img class="user-actions-post__background" src="./images/images__home/SSU.png" alt="img">
                     <div class="user-actions-post__description">
                         <a href="#" class="user-actions-post__title">Sunny Side Up</a>
                         <span class="user-actions-post__subtitle">No place is ever as bad as they tell you it’s going to
@@ -109,14 +109,14 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./images__blog/ManMV.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./images/images__home/ManMV.png" alt="img">
                             <a href="#" class="user-actions-post-autor__name">Mat Vogels</a>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
                     </div>
                 </div>
                 <div class="user-actions__post">
-                    <img class="user-actions-post__background" src="./images__blog/WF.png" alt="img">
+                    <img class="user-actions-post__background" src="./images/images__home/WF.png" alt="img">
                     <div class="user-actions-post__description">
                         <a href="#" class="user-actions-post__title">Water Falls</a>
                         <span class="user-actions-post__subtitle">We travel not to escape life, but for life not to
@@ -125,14 +125,14 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./images__blog/ManMV.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./images/images__home/ManMV.png" alt="img">
                             <a href="#" class="user-actions-post-autor__name">Mat Vogels</a>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
                     </div>
                 </div>
                 <div class="user-actions__post">
-                    <img class="user-actions-post__background" src="./images__blog/TTM.png" alt="img">
+                    <img class="user-actions-post__background" src="./images/images__home/TTM.png" alt="img">
                     <div class="user-actions-post__description">
                         <a href="#" class="user-actions-post__title">Through the Mist</a>
                         <span class="user-actions-post__subtitle">Travel makes you see what a tiny place you occupy in
@@ -140,28 +140,28 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./images__blog/ManWW.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./images/images__home/ManWW.png" alt="img">
                             <span class="user-actions-post-autor__name">William Wong</span>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
                     </div>
                 </div>
                 <div class="user-actions__post">
-                    <img class="user-actions-post__background" src="./images__blog/AE.png" alt="img">
+                    <img class="user-actions-post__background" src="./images/images__home/AE.png" alt="img">
                     <div class="user-actions-post__description">
                         <a href="#" class="user-actions-post__title">Awaken Early</a>
                         <span class="user-actions-post__subtitle">Not all those who wander are lost.</span>
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./images__blog/ManMV.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./images/images__home/ManMV.png" alt="img">
                             <a href="#" class="user-actions-post-autor__name">Mat Vogels</a>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
                     </div>
                 </div>
                 <div class="user-actions__post">
-                    <img class="user-actions-post__background" src="./images__blog/TIA.png" alt="img">
+                    <img class="user-actions-post__background" src="./images/images__home/TIA.png" alt="img">
                     <div class="user-actions-post__description">
                         <a href="#" class="user-actions-post__title">Try it Always</a>
                         <span class="user-actions-post__subtitle">The world is a book, and those who do not travel read
@@ -169,7 +169,7 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./images__blog/ManMV.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./images/images__home/ManMV.png" alt="img">
                             <a href="#" class="user-actions-post-autor__name">Mat Vogels</a>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>

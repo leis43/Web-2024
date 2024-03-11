@@ -1,29 +1,23 @@
 body {
     margin: 0px;
     width: 100%;
+    padding-top: 17px;
 }
 
-.top-block {
-    height: 40px;
-    display: inline-block;
-    margin: 17px 250px 106px 250px;
+.top-block { 
+    margin-left: 250px;
+    margin-right: 250px;
+    max-height: 40px;
 }
 
 .logo {
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
-    font-family: "Lora";
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
+    max-width: 92px;
+    max-height: 26px;
+    margin-top: 3px;
 }
 
-.links {
-    height: 40px;
-    margin-left: 485px;
-    display: inline-block;
+.links { 
+    float: right;
 }
 
 .links-item {
@@ -32,16 +26,18 @@ body {
     line-height: 20px;
     font-family: "Oxygen";
     display: inline-block;
-    padding: 10px 20px;
     cursor: pointer;
     text-decoration: none;
     color: black;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .title {
-    margin: 0 221px 38px 221px;
-    height: 159px;
-    text-align: center;
+    padding: 89px 0 75px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -49,8 +45,8 @@ h1 {
     font-size: 50px;
     line-height: 51px;
     font-family: "Lora";
-    margin: 7px 0 20px 0;
-    height: 51px;
+    margin: 7px 221px 20px 221px;
+    text-align: center;
 }
 
 .title span {
@@ -61,7 +57,9 @@ h1 {
     text-align: center;
     color: #2E2E2E;
     opacity: 0.63;
-    margin-bottom: 75px;
+    margin-right: 218px;
+    margin-left: 218px;
+    text-align: center;
 }
 
 .P1 {

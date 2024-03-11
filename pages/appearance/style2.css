@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background-image: url("./images__blog/BackH.jpg");
+    background-image: url("../backgrounds/backgrounds__home/BackH.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,13 +97,17 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+    gap: px;
     background-color: #FFFFFF;
     padding-top: 9px;
     padding-bottom: 10px;
 }
 
 .menu__link {
-    font: 400 14px/20px "Lora";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lora";
     color: #768088;
     text-decoration: none;
     padding: 13px 41px;
@@ -156,11 +160,12 @@ body {
 .button__categories-of-post {
     font: 400 12px/13px "Oxygen";
     color: #FFFFFF;
-    padding: 6px 9px 7px 9px;
+    padding: 12px 31px;
     background-color: #DD783F;
     border-radius: 3px;
     border: none;
     text-decoration: none;
+    margin-bottom: 11px;
     margin-left: 20px;
 }
 
@@ -173,7 +178,7 @@ body {
     height: 181px;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 5%;
     justify-content: end;
     gap: 6px;
 }
@@ -186,7 +191,7 @@ body {
 .news-post__description {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 5%;
     justify-content: end;
     gap: 6px;
 }
@@ -301,10 +306,10 @@ body {
 
 .footer {
     display: flex;
-    background-image: url("./images__blog/backf.png");
+    background-image: url("./backgrounds/backgrounds__home/backf.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 21px;
-    padding-bottom: 20px;
+    padding-top: 28px;
+    padding-bottom: 27px;
 }
