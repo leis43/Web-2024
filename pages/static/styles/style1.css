@@ -5,8 +5,9 @@ body {
 }
 
 .top-block { 
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
     max-height: 40px;
 }
 
@@ -24,7 +25,7 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-    font-family: "Oxygen";
+    font-family: "Oxygen", Arial, sans-serif;;
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
@@ -44,21 +45,20 @@ h1 {
     font-weight: 400;
     font-size: 50px;
     line-height: 51px;
-    font-family: "Lora";
-    margin: 7px 221px 20px 221px;
+    font-family: "Lora", Arial, sans-serif;;
+    margin-top: 7px;
     text-align: center;
 }
 
-.title span {
+.title p {
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    font-family: "Oxygen";
-    text-align: center;
+    font-family: "Oxygen", Arial, sans-serif;
     color: #2E2E2E;
     opacity: 0.63;
-    margin-right: 218px;
-    margin-left: 218px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     text-align: center;
 }
 
@@ -72,50 +72,48 @@ h1 {
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
-    font-family: "Oxygen";
+    font-family: "Oxygen", Arial, sans-serif;;
     text-align: left;
-    height: 1431;
-    margin: 0 240px 135px 240px;
+    margin-bottom: 135px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-menu {
-    display: inline-block;
-    margin-left: 600px;
+    float: right;
+}
+
+.basement-foot-elements {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    max-height: 40px;
+    padding-bottom: 27px;
+    padding-top: 28px; 
 }
 
 .basement-foot {
-    box-sizing: border-box;
-    height: 89px;
-    background-image: url("./images/BackR.png");
+    background-image: url("../images/backgrounds/backgrounds__post/backf.png");
     background-position: center;
     background-size: 100%;
 }
 
-.basement-foot-elements {
-    padding: 31px 10px 0 10px;
-}
-
-.footer-menu-logo {
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
-    font-family: "Lora";
-    margin: 3px 0 3px 240px;
-    height: 26px;
-    color: #FFFF;
-    cursor: pointer;
-    text-decoration: none;
+.basement-foot__logo {
+    max-width: 92px;
+    max-height: 26px;
 }
 
 .footer-menu-link {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-    font-family: "Oxygen";
+    font-family: "Oxygen", Arial, sans-serif;;
     color: #FFFF;
     opacity: 0.60;
-    margin-right: 30px;
-    margin: 3px 10px 3px 0;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
     cursor: pointer;
     text-decoration: none;
 }

@@ -3,15 +3,14 @@
 
 <head>
 	<title>The Road Ahead</title>
-	<link href="style1.css" rel="stylesheet">
+	<link href="./static/styles/style1.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 </head>
-
 <body>
 	<header class="top-block">
 		<a> 
-		  <img src="./images/images__post/images__post/images__post/images__post/Escape..svg" alt="triangle with all three sides equal" class="logo" />
+		  <img src="./static/images/images__post/Escape..svg" alt="triangle with all three sides equal" class="logo" />
 		</a>
 		<nav class="links">
 			<a class="links-item" href="">HOME</a>
@@ -22,9 +21,9 @@
 	</header>
 	<div class="title">
 		<h1>The Road Ahead</h1>
-		<span>The road ahead might be paved - it might not be.</span>
+		<p>The road ahead might be paved - it might not be.</p>
 	</div>
-	<img src="./images/images__post/images__post/images__post/images__post/the-road-ahead.png" alt="img" class="P1" />
+	<img src="./static/images/images__post/the-road-ahead.png" alt="img" class="P1" />
 	<div class="text">
 		<p>Dark spruce forest frowned on either side the frozen waterway. The trees had been stripped by a recent wind
 			of their white covering of frost, and they seemed to lean towards each other, black and ominous, in the
@@ -61,7 +60,9 @@
 	</div>
 	<footer class="basement-foot">
 		<div class="basement-foot-elements">
-			<a class="footer-menu-logo">Escape.</a>
+			<a> 
+		  		<img src="./static/images/images__post/Escape2..svg" alt="triangle with all three sides equal" class="basement-foot__logo" />
+			</a>
 			<div class="footer-menu">
 				<a class="footer-menu-link" href="">HOME</a>
 				<a class="footer-menu-link" href="">CATEGORIES</a>
@@ -71,5 +72,4 @@
 		</div>
 	</footer>
 </body>
-
 </html>
