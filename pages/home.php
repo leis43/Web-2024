@@ -3,7 +3,7 @@
 
 <head>
     <title>Let\'s do it together.</title>
-    <link type = "text/css" rel = "stylesheet" href = "./static/styles/style2.css">
+    <link type="text/css" rel="stylesheet" href="./static/styles/style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap"
@@ -31,7 +31,7 @@
             </ul>
         </div>
         <div class="header__baner">
-            <h1 class="header__title">Let\'s do it together.</h1>
+            <h1 class="header__title">Let's do it together.</h1>
             <span class="header__subtitle">We travel the world in search of stories. Come along for the ride.</span>
             <a href="#" class="header__button">View Latest Posts </a>
         </div>
@@ -56,7 +56,8 @@
                     <span class="news-post__subtitle">The road ahead might be paved - it might not be.</span>
                     <div class="news-post__info">
                         <div class="news-post-info__autor">
-                            <img class="news-post-info-autor__avatar" src="./static/images/images__home/ManMV.png" alt="img">
+                            <img class="news-post-info-autor__avatar" src="./static/images/images__home/ManMV.png"
+                                alt="img">
                             <span class="news-post-info-autor__name">Mat Vogels</span>
                         </div>
                         <span class="news-post-info__release-date">September 25, 2015</span>
@@ -73,7 +74,8 @@
                     <span class="news-post__subtitle">Once a year, go someplace you’ve never been before.</span>
                     <div class="news-post__info">
                         <div class="news-post-info__autor">
-                            <img class="news-post-info-autor__avatar" src="./static/images/images__home/ManWW.png" alt="img">
+                            <img class="news-post-info-autor__avatar" src="./static/images/images__home/ManWW.png"
+                                alt="img">
                             <span class="news-post-info-autor__name">William Wong</span>
                         </div>
                         <span class="news-post-info__release-date">September 25, 2015</span>
@@ -94,7 +96,8 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManWW.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManWW.png"
+                                alt="img">
                             <span class="user-actions-post-autor__name">William Wong</span>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
@@ -109,7 +112,8 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManMV.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManMV.png"
+                                alt="img">
                             <a href="#" class="user-actions-post-autor__name">Mat Vogels</a>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
@@ -125,7 +129,8 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManMV.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManMV.png"
+                                alt="img">
                             <a href="#" class="user-actions-post-autor__name">Mat Vogels</a>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
@@ -140,7 +145,8 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManWW.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManWW.png"
+                                alt="img">
                             <span class="user-actions-post-autor__name">William Wong</span>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
@@ -154,7 +160,8 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManMV.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManMV.png"
+                                alt="img">
                             <a href="#" class="user-actions-post-autor__name">Mat Vogels</a>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>
@@ -169,7 +176,8 @@
                     </div>
                     <div class="user-actions-post__info">
                         <div class="user-actions-post-info__autor">
-                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManMV.png" alt="img">
+                            <img class="user-actions-post-autor__avatar" src="./static/images/images__home/ManMV.png"
+                                alt="img">
                             <a href="#" class="user-actions-post-autor__name">Mat Vogels</a>
                         </div>
                         <span class="user-actions-post-info__publish-data">9/25/2015</span>

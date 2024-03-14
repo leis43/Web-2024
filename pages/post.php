@@ -4,13 +4,16 @@
 <head>
 	<title>The Road Ahead</title>
 	<link href="./static/styles/style1.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap"
+		rel="stylesheet">
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 </head>
+
 <body>
 	<header class="top-block">
-		<a> 
-		  <img src="./static/images/images__post/Escape..svg" alt="triangle with all three sides equal" class="logo" />
+		<a>
+			<img src="./static/images/images__post/Escape..svg" alt="triangle with all three sides equal" class="logo" />
 		</a>
 		<nav class="links">
 			<a class="links-item" href="">HOME</a>
@@ -60,8 +63,9 @@
 	</div>
 	<footer class="basement-foot">
 		<div class="basement-foot-elements">
-			<a> 
-		  		<img src="./static/images/images__post/Escape2..svg" alt="triangle with all three sides equal" class="basement-foot__logo" />
+			<a>
+				<img src="./static/images/images__post/Escape2..svg" alt="triangle with all three sides equal"
+					class="basement-foot__logo" />
 			</a>
 			<div class="footer-menu">
 				<a class="footer-menu-link" href="">HOME</a>
@@ -72,4 +76,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>
