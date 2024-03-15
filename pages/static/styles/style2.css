@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
 body {
     margin: 0px;
     width: 100%;
@@ -95,7 +105,6 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: px;
     background-color: #FFFFFF;
     padding-top: 9px;
     padding-bottom: 10px;
@@ -247,6 +256,7 @@ body {
     flex-direction: column;
     background-color: #FFFFFF;
     height: 296px;
+    text-decoration: none;
 }
 
 .user-actions-post__description {
@@ -255,23 +265,22 @@ body {
     padding-top: 14px;
     padding-left: 13px;
     flex-wrap: wrap;
-    height: 93px;
+    height: 100px;
     border-bottom: 1px solid #EFEFEF;
 }
 
 .user-actions-post__title {
     font: 400 16px/21px "Lora", Arial, sans-serif;
     color: #101315;
-    text-decoration: none;
     margin-bottom: 6px;
 }
 
 .user-actions-post__subtitle {
     font: 400 13px/19px "Oxygen", Arial, sans-serif;
     color: #7A7A7A;
-    text-decoration: none;
     margin-bottom: 6px;
     max-width: 270px;
+    height: 38px;
 }
 
 .user-actions-post__info {
@@ -302,12 +311,21 @@ body {
     color: #999999;
 }
 
+.navigation__list_foot {
+    opacity: 0.6;
+}
+
+.navigation__logo_foot {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
 .footer {
     display: flex;
     background-image: url("../images/backgrounds/backgrounds__home/BackF.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 28px;
-    padding-bottom: 27px;
+    align-items: center;
+    height: 89px;
 }
