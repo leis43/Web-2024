@@ -5,7 +5,6 @@
       <?= $post['button'] ?>
     </span>
   <?php endif; ?>
-
   <div class="news-post__description">
     <h3 class="news-post__title">
       <?= $post['title'] ?>

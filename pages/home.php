@@ -86,7 +86,7 @@ $futered_posts = [
 
 <head>
 	<title>Let\'s do it together.</title>
-	<link type="text/css" rel="stylesheet" href="./static/styles/style2-1.css">
+	<link type="text/css" rel="stylesheet" href="./static/styles/style2.css">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap"
 		rel="stylesheet">
