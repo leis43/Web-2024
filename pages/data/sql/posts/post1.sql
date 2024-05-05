@@ -46,7 +46,7 @@ VALUES (
 	pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.',
     'Mat Vogels',
     './static/images/images__home/ManMV.png',
-    'September 25, 2015',
+    '2015-09-25 16:37:23',
     './static/images/images__home/TRA.png',
     '1'
 ),
@@ -86,7 +86,7 @@ VALUES (
 	pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.',
    'William Wong',
    './static/images/images__home/ManWW.png',
-   'September 25, 2015',
+  '2015-09-25 16:37:23',
    './static/images/images__home/FTD.png',
    '1'
 ),
@@ -126,7 +126,7 @@ VALUES (
 	pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.',
    'William Wong',
    './static/images/images__home/ManWW.png',
-   'September 25, 2015',
+   '2015-09-25 16:37:23',
    './static/images/images__home/SST.png',
    '0'
    ),
@@ -166,7 +166,7 @@ VALUES (
 	pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.',
    'Mat Vogels',
    './static/images/images__home/ManMV.png',
-   'September 25, 2015',
+   '2015-09-25 16:37:23',
    './static/images/images__home/SSU.png',
    '0'
    ),
@@ -206,7 +206,7 @@ VALUES (
 	pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.',
    'Mat Vogels',
    './static/images/images__home/ManMV.png',
-   'September 25, 2015',
+   '2015-09-25 16:37:23',
    './static/images/images__home/WF.png',
    '0'
    ),
@@ -246,7 +246,7 @@ VALUES (
 	pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.',
    'Mat Vogels',
    './static/images/images__home/ManMV.png',
-   'September 25, 2015',
+   '2015-09-25 16:37:23',
    './static/images/images__home/TTM.png',
    '0'
    ),
@@ -286,7 +286,7 @@ VALUES (
 	pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.',
    'Mat Vogels',
    './static/images/images__home/ManMV.png',
-   'September 25, 2015',
+   '2015-09-25 16:37:23',
    './static/images/images__home/AE.png',
    '0'
    ),
@@ -326,7 +326,10 @@ VALUES (
 	pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.',
    'Mat Vogels',
    './static/images/images__home/ManMV.png',
-   'September 25, 2015',
+   '2015-09-25 16:37:23',
    './static/images/images__home/TIA.png',
    '0'
    );
+   
+   SELECT * FROM post;
+   

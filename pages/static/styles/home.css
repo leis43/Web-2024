@@ -110,7 +110,7 @@ body {
 }
 
 .menu__link {
-  font: 14/20px, "Lora", Arial, sans-serif;
+  font: 14px/20px "Lora", Arial, sans-serif;
   color: #768088;
   text-decoration: none;
   padding: 13px 41px;

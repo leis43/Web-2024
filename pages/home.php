@@ -1,92 +1,48 @@
-
 <?php
-$most_posts = [
-	[
-		'id' => 3,
-		'title' => 'Still Standing Tall',
-		'subtitle' => 'Life begins at the end of your comfort zone.',
-		'img_modifier' => './static/images/images__home/SST.jpg',
-		'author' => 'William Wong',
-		'img_autor' => './static/images/images__home/ManWW.png',
-		'posting_data' => '9/25/2015',
+require_once 'database.php';
 
-	],
-	[
-		'id' => 4,
-		'title' => 'Sunny Side Up',
-		'subtitle' => 'No place is ever as bad as they tell you it’s going to be.',
-		'img_modifier' => './static/images/images__home/SSU.png',
-		'author' => 'Mat Vogels',
-		'img_autor' => './static/images/images__home/ManMV.png',
-		'posting_data' => '9/25/2015',
-	],
-	[
-		'id' => 5,
-		'title' => 'Water Falls',
-		'subtitle' => 'We travel not to escape life, but for life not to escape us',
-		'img_modifier' => './static/images/images__home/WF.png',
-		'author' => 'Mat Vogels',
-		'img_autor' => './static/images/images__home/ManMV.png',
-		'posting_data' => '9/25/2015',
-	],
-	[
-		'id' => 6,
-		'title' => 'Through the Mist',
-		'subtitle' => 'Travel makes you see what a tiny place you occupy in the world.',
-		'img_modifier' => './static/images/images__home/TTM.png',
-		'author' => 'Mat Vogels',
-		'img_autor' => './static/images/images__home/ManWW.png',
-		'posting_data' => '9/25/2015',
-	],
-	[
-		'id' => 7,
-		'title' => 'Awaken Early',
-		'subtitle' => 'Not all those who wander are lost.',
-		'img_modifier' => './static/images/images__home/AE.png',
-		'author' => 'Mat Vogels',
-		'img_autor' => './static/images/images__home/ManMV.png',
-		'posting_data' => '9/25/2015',
-	],
-	[
-		'id' => 8,
-		'title' => 'Try it Always',
-		'subtitle' => 'The world is a book, and those who do not travel read only one page.',
-		'img_modifier' => './static/images/images__home/TIA.png',
-		'author' => 'Mat Vogels',
-		'img_autor' => './static/images/images__home/ManMV.png',
-		'posting_data' => '9/25/2015',
-	],
-];
+function getFuturedPostsFromDB(mysqli $conn): array
+{
+	$sql = "SELECT * FROM post WHERE featured = 1";
+	$result = $conn->query($sql);
+	$output = [];
+	if ($result->num_rows > 0) {
+		$i = 0;
+		while ($row = $result->fetch_assoc()) {
+			$output[$i] = $row;
+			$i++;
+		}
+	}
+	return $output;
+}
 
-$futered_posts = [
-	[
-		'id' => 1,
-		'title' => 'The Road Ahead',
-		'subtitle' => 'The road ahead might be paved - it might not be.',
-		'img_modifier' => './static/images/images__home/TRA.png',
-		'author' => 'Mat Vogels',
-		'img_autor' => './static/images/images__home/ManMV.png',
-		'posting_data' => 'September 25, 2015',
-	],
+function getMostPostsFromDB(mysqli $conn): array
+{
+	$sql = "SELECT * FROM post WHERE featured = 0";
+	$result = $conn->query($sql);
+	$output = [];
+	if ($result->num_rows > 0) {
+		$i = 0;
+		while ($row = $result->fetch_assoc()) {
+			$output[$i] = $row;
+			$i++;
+		}
+	}
+	return $output;
+}
 
-	[
-		'id' => 2,
-		'button' => 'ADVENTURE',
-		'title' => 'From Top Down',
-		'subtitle' => 'Once a year, go someplace you’ve never been before.',
-		'img_modifier' => './static/images/images__home/FTD.png',
-		'author' => 'William Wong',
-		'img_autor' => './static/images/images__home/ManWW.png',
-		'posting_data' => 'September 25, 2015',
-	],
-];
+	$conn = createDBConnection();
+	$futered_posts = getFuturedPostsFromDB($conn);
+    $most_posts = getMostPostsFromDB($conn);
+	closeDBConnection($conn);
+
 ?>
 <!doctype html>
 <html lang="en">
 
 <head>
 	<title>Let\'s do it together.</title>
-	<link type="text/css" rel="stylesheet" href="./static/styles/style2.css">
+	<link type="text/css" rel="stylesheet" href="./static/styles/home.css">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap"
 		rel="stylesheet">
@@ -146,6 +102,7 @@ $futered_posts = [
 		</div>
 		<div class="news">
 			<?php
+
 			foreach ($futered_posts as $post) {
 				include 'futered_post.php';
 			}
