@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>СalculatorWithInput</title>
+</head>
+<body>
+<label for="FirstNumber">Введите первое число</label>
+<input id="FirstNumber" name="FirstNumber" type="number">
+<label for="SecondNumber">Введите второе число</label>
+<input id="SecondNumber" name="SecondNumber" type="number">
+<label for="mathematicalOperations-select">Choose a pet:</label>
+<select name="mathematicalOperations-select" id="mathematicalOperations-select">
+    <option value="">--Please choose an option--</option>
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="/">/</option>
+    <option value="*">*</option>
+</select>
+<button id="Ok" onclick="eventListener()">Answer</button>
+<h3 >Ответ:</h3>
+<p id="answer" hidden></p>
+
+<script>
+    const  firstNumber = document.getElementById("FirstNumber");
+    const  secondNumber = document.getElementById("SecondNumber");
+    const  mathematicalOperations = document.getElementById("mathematicalOperations-select");
+    const  button = document.getElementById("Ok");
+    const  answer = document.getElementById("answer");
+
+    console.log('сначала:', firstNumber,' ', secondNumber, ' ', mathematicalOperations);
+    let total;
+    eventListener();
+
+    function eventListener() {
+        button.onclick = printAnswer;
+    }
+    function preparingResponse() {
+        switch (mathematicalOperations.value){
+            case '+':
+                total = Number(firstNumber.value) + Number(secondNumber.value);
+            break;
+            case '-':
+                total = Number(firstNumber.value) - Number(secondNumber.value);
+            break;
+            case '/':
+                total = Number(firstNumber.value) / Number(secondNumber.value);
+            break;
+            case '*':
+                total = Number(firstNumber.value) * Number(secondNumber.value);
+        }
+        return total;
+    }
+
+    function printAnswer(){
+        console.log(total);
+        answer.textContent = preparingResponse();
+        answer.hidden = false;
+        console.log(answer.hidden);
+    }
+</script>
+</body>
+</html>
